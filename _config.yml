@@ -1,5 +1,5 @@
 author: Chris Zuber
-title: Jekyll Template Demo
+title: Kern Valley News
 # url: ''
 markdown: kramdown
 version: 1.0.0
@@ -14,34 +14,24 @@ robots: 'follow, index'
 referrer: origin-when-cross-origin
 manifest: /manifest.json
 tiles-config: /browserconfig.xml
-# service_worker:
+service_worker: '/service-worker.js'
 og-type: website
-description: "A template repository for Jekyll sites, including skeleton JS, CSS, SVGs, fonts, etc."
+description: "News for the Kern River Valley"
 mobile-web-app-capable: true
 # canonical: ''
 keywords:
-- jekyll
-- static
-- template
-- github
-- CSS3
-- HTML5
-- responsive design
-- progressive web app
-- pwa
-- ecmascript
-- javascript
-- es6
+- news
+- KernValley
 repository:
-  username: shgysk8zer0
-  project: jekyll-template
-  title: Jekyll Template
+  username: kernvalley
+  project: 'news.kernvalley.us'
+  title: Kern Valley News
 # twitter:
 feed:
   url: /feed.rss
   type: application/rss+xml
 icons: '/img/icons.svg'
-theme-color: '#528ff9'
+theme-color: '#00927f'
 background-color: '#242424'
 # discus-identifier:
 # google-analytics:
