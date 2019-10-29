@@ -1,8 +1,8 @@
 {
-  "name": "jekyll-template",
+  "name": "news-kernvalley-ud",
   "version": "1.0.0",
   "private": true,
-  "description": "A template repository for Jekyll sites, including skeleton JS, CSS, SVGs, fonts, etc.",
+  "description": "News for the Kern River Valley",
   "config": {
     "icons": "./_data/icons.csv",
     "serve": {
@@ -19,23 +19,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shgysk8zer0/jekyll-template.git"
+    "url": "git+https://github.com/kernvalley/news.kernvalley.us.git"
   },
   "keywords": [
+    "news",
+    "Kern River Valley",
     "jekyll",
     "template",
     "ecmascript",
     "javascript",
     "css",
     "svg",
-    "icons"
   ],
   "author": "Chris Zuber <shgysk8zer0@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shgysk8zer0/jekyll-template/issues"
+    "url": "https://github.com/kernvalley/news.kernvalley.us/issues"
   },
-  "homepage": "https://github.com/shgysk8zer0/jekyll-template",
+  "homepage": "https://github.com/kernvalley/news.kernvalley.us",
   "scripts": {
     "test": "npm run lint",
     "start": "npm run netlify",
