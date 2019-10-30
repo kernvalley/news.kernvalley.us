@@ -17,7 +17,7 @@
 		{% if page.tags %}<meta itemprop="keywords" content="{{ page.tags | join: ', '}}" />{% endif %}
 		{% if page.thumbnail %}
 			<meta itemprop="image" content="{{ page.thumbnail }}" />
-		{% elseif page.imgur %}
+		{% elsif page.imgur %}
 			{% capture hash %}{{ page.imgur | replace: 'https://i.imgur.com/', '' | replace: 'https://imgur.com/', '' | replace: '.png', '' | replace: '.jpg', '' }}{% endcapture %}
 			<meta itemprop="image" content="https://i.imgur.com/{{ hash }}l.png" />
 		{% elsif page.image %}
