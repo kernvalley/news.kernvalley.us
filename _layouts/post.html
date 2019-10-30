@@ -24,7 +24,7 @@ itemtype: 'https://schema.org/WebPage'
 		{% include header.html %}
 		{% include nav.html %}
 		<main id="main" class="card shadow">
-			{% include article.html %}
+			{% include article.html publisher=page.publisher author=page.author %}
 		</main>
 		{% include sidebar.html recent-posts=5 %}
 		{% include footer.html %}
