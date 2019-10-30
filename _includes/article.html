@@ -1,7 +1,7 @@
 <span hidden="">
 	{% include breadcrumb-nav.html category=page.category post=page %}
 </span>
-<article itemtype="http://schema.org/BlogPosting" role="article" class="font-article" itemscope="">
+<article itemtype="http://schema.org/{{ include.itemtype | default: 'Article' }}" role="article" class="font-article" itemscope="">
 	{% if page.publisher %}
 		<div itemprop="publisher" itemtype="https://schema.org/{{ include.publisher[@type] | default: 'Organization' }}" itemscope="" hidden="">
 			<meta itemprop="name" content="{{ include.publisher.name }}" />

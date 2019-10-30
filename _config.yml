@@ -84,6 +84,7 @@ defaults:
     path: _posts
   values:
     layout: post
+    itemtype: NewsArticle
     author:
       givenName: Chris
       familyName: Zuber
@@ -105,6 +106,7 @@ defaults:
     path: _drafts
   values:
     layout: post
+    itemtype: NewsArticle
     author:
       givenName: Chris
       familyName: Zuber
