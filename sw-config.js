@@ -4,7 +4,11 @@
 const config = {
 	version: '{{ site.version }}',
 	stale: [
-		'/',
+		/* Jekyll pinned posts */
+		'{{ site.posts | where: "pinned", true | map: "url" | join: "', '" }}',
+		/* Jekyll pinned pages */
+		'{{ site.pages | where: "pinned", true | map: "url" | join: "', '" }}',
+		/* Assets */
 		'/js/index.js',
 		'https://cdn.kernvalley.us/components/share-button.js',
 		'https://cdn.kernvalley.us/js/std-js/share-config.js',
@@ -64,5 +68,5 @@ const config = {
 		'https://cdn.kernvalley.us/img/adwaita-icons/actions/mail-send.svg',
 		'https://cdn.kernvalley.us/img/logos/instagram.svg',
 		'https://cdn.kernvalley.us/fonts/roboto.woff2',
-	].map(path => new URL(path, location.origin).href),
+	].filter(item => item !== '').map(path => new URL(path, location.origin).href),
 };
