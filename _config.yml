@@ -1,8 +1,8 @@
 author: Chris Zuber
 title: Kern Valley News
-# url: ''
+url: 'https://news.kernvalley.us'
 markdown: kramdown
-version: 1.0.0
+version: 1.0.1
 timezone: America/Los_Angeles
 lang: en
 dir: ltr
@@ -85,6 +85,7 @@ defaults:
   values:
     layout: post
     itemtype: NewsArticle
+    columns: auto
     author:
       givenName: Chris
       familyName: Zuber
@@ -107,6 +108,7 @@ defaults:
   values:
     layout: post
     itemtype: NewsArticle
+    columns: auto
     author:
       givenName: Chris
       familyName: Zuber
