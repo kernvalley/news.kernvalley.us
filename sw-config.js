@@ -60,8 +60,9 @@ const config = {
 		'https://cdn.kernvalley.us/css/core-css/layout/right-sidebar/index.css',
 		'https://cdn.kernvalley.us/css/normalize/normalize.css',
 		'https://cdn.kernvalley.us/css/animate.css/animate.css',
-		/* Icons */
-		'/img/icons.svg',
+		/* Icons & Images */
+		'/img/neon.svg',
+		'{{ site.icons }}',
 		'/img/apple-touch-icon.png',
 		'/img/icon-192.png',
 		'/img/favicon.svg',
