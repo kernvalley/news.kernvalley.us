@@ -3,11 +3,13 @@
 /* eslint no-unused-vars: 0 */
 const config = {
 	version: '{{ site.version }}',
-	stale: [
+	fresh: [
 		/* Jekyll pinned posts */
 		'{{ site.posts | where: "pinned", true | map: "url" | join: "', '" }}',
 		/* Jekyll pinned pages */
 		'{{ site.pages | where: "pinned", true | map: "url" | join: "', '" }}',
+	],
+	stale: [
 		/* JavaScript */
 		'/js/index.js',
 		'https://cdn.kernvalley.us/js/std-js/deprefixer.js',
