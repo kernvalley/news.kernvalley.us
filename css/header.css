@@ -1,3 +1,33 @@
 #header {
-	background-image: url("/img/neon.svg");
+	background-image: url("/img/uploads/2019/12/background-1024.jpg");
+}
+
+@media (min-width: 1025px) {
+	#header {
+		background-image: url("/img/uploads/2019/12/background-1280.jpg");
+	}
+}
+
+@media (max-width: 1024px) and (min-width: 801px) {
+	#header {
+		background-image: url("/img/uploads/2019/12/background-1024.jpg");
+	}
+}
+
+@media (max-width: 800px) and (min-width: 641px) {
+	#header {
+		background-image: url("/img/uploads/2019/12/background-800.jpg");
+	}
+}
+
+@media (max-width: 640px) and (min-width: 321px) {
+	#header {
+		background-image: url("/img/uploads/2019/12/background-640.jpg");
+	}
+}
+
+@media (max-width: 320px) {
+	#header {
+		background-image: url("/img/uploads/2019/12/background-320.jpg");
+	}
 }
