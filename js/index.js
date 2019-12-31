@@ -6,6 +6,8 @@ import 'https://cdn.kernvalley.us/components/current-year.js';
 import 'https://cdn.kernvalley.us/components/gravatar-img.js';
 import 'https://cdn.kernvalley.us/components/login-button.js';
 import 'https://cdn.kernvalley.us/components/logout-button.js';
+import 'https://cdn.kernvalley.us/components/weather-current.js';
+import 'https://cdn.kernvalley.us/components/ad-block.js';
 import {$, ready, registerServiceWorker} from 'https://cdn.kernvalley.us/js/std-js/functions.js';
 
 if (document.documentElement.dataset.hasOwnProperty('serviceWorker')) {

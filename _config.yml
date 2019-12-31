@@ -1,8 +1,8 @@
 author: Chris Zuber
-title: Kern Valley News
+title: Kern River Courier
 url: 'https://news.kernvalley.us'
 markdown: kramdown
-version: 1.0.1
+version: 1.0.2
 timezone: America/Los_Angeles
 lang: en
 dir: ltr
@@ -21,7 +21,9 @@ mobile-web-app-capable: true
 # canonical: ''
 keywords:
 - news
-- KernValley
+- Kern Valley
+- Kern River Valley
+- Kern River Courier
 repository:
   username: kernvalley
   project: 'news.kernvalley.us'
