@@ -1,4 +1,12 @@
 <aside id="sidebar" class="card shadow">
 	{% if include.pinned-posts %}{% include pinned-posts.html count=layout.pinned-posts %}{% endif %}
+	<ad-block url="https://events.kernvalley.us" itemtype="https://schema.org/WPAdBlock" itemscope="" class="card shadow">
+		<svg slot="image" class="current-color" aria-hidden="true">
+			<use xlink:href="/img/icons.svg#calendar"></use>
+		</svg>
+		<b slot="label">Kern Valley Events</b>
+		<p slot="description">The best things going on in the Valley</p>
+		<span slot="calltoaction">See what's going on today.</span>
+	</ad-block>
 	{% if include.recent-posts %}{% include recent-posts.html count=layout.recent-posts %}{% endif %}
 </aside>
