@@ -1,6 +1,6 @@
 {
   "name": "news-kernvalley-us",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "private": true,
   "description": "A template repository for Jekyll sites, including skeleton JS, CSS, SVGs, fonts, etc.",
   "config": {
