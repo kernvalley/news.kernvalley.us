@@ -1,6 +1,6 @@
-name: Kern Valley News
-shortName: KRV News
-version: 1.0.1
+name: Kern River Courier
+shortName: Courier
+version: 1.0.2
 display: standalone
 description: "News for the Kern River Valley"
 icons-file: /img/icons.svg

@@ -5,11 +5,7 @@
 	<msapplication>
 		<tile>
 			<square150x150logo src="/img/mstile-150x150.png"/>
-<<<<<<< HEAD
-			<TileColor>{{ site.theme-color | default: '#528ff9' }}</TileColor>
-=======
 			<TileColor>{{ site.data.app.theme.color | default: '#528ff9' }}</TileColor>
->>>>>>> patch/rebase
 		</tile>
 	</msapplication>
 </browserconfig>
