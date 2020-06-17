@@ -3,23 +3,6 @@
 		{% if site.repository %}
 			<div class="cols inline-block">
 				<a class="block" href="https://github.com/{{ site.repository.username }}/" target="_blank" rel="external noopener">
-<<<<<<< HEAD
-					<svg class="current-color icon social-icon">
-						<use xlink:href="{{ site.icons }}#mark-github" />
-					</svg>
-					<span>GitHub Profile</span>
-				</a>
-				<a class="block" href="https://github.com/{{ site.repository.username }}/{{ site.repository.project }}" target="_blank" rel="external noopener">
-					<svg class="current-color icon social-icon">
-						<use xlink:href="{{ site.icons }}#repo" />
-					</svg>
-					<span>GitHub Repo</span>
-				</a>
-				<a class="block" href="https://github.com/{{ site.repository.username }}/{{ site.repository.project }}/issues" target="_blank" rel="external noopener">
-					<svg class="current-color icon social-icon">
-						<use xlink:href="{{ site.icons }}#issue-opened" />
-					</svg>
-=======
 					{% include icon.html icon="mark-github" class="current-color icon social-icon" %}
 					<span>GitHub Profile</span>
 				</a>
@@ -29,50 +12,11 @@
 				</a>
 				<a class="block" href="https://github.com/{{ site.repository.username }}/{{ site.repository.project }}/issues" target="_blank" rel="external noopener">
 					{% include icon.html icon="issue-opened" class="current-color icon social-icon" %}
->>>>>>> patch/rebase
 					<span>Report a Problem</span>
 				</a>
 			</div>
 		{% endif %}
 		<div class="cols inline-block">
-<<<<<<< HEAD
-			<a class="block" href="https://www.facebook.com/KernRiverCourier/" target="_blank" rel="external noopener" itemprop="sameAs">
-				<svg class="current-color icon social-icon">
-					<use xlink:href="{{ site.icons }}#facebook" />
-				</svg>
-				<span><span class="mobile-hidden">Kern River Courier | </span>Facebook</span>
-			</a>
-			<a class="block" href="https://twitter.com/kern_valley" target="_blank" rel="external noopener" itemprop="sameAs">
-				<svg class="icon social-icon">
-					<use xlink:href="{{ site.icons }}#twitter" />
-				</svg>
-				<span><span class="mobile-hidden">KernValley.US | </span>Twitter</span>
-			</a>
-			<a class="block" href="https://www.linkedin.com/in/kernvalley-us/" target="_blank" rel="external noopener" itemprop="sameAs">
-				<svg class="icon social-icon">
-					<use xlink:href="{{ site.icons }}#linkedin" />
-				</svg>
-				<span><span class="mobile-hidden">KernValley.US | </span>LinkedIn</span>
-			</a>
-			<a class="block" href="https://kernvalley.us" target="_blank" rel="external noopener" itemprop="sameAs">
-				<svg class="current-color icon social-icon">
-					<use xlink:href="{{ site.icons }}#web-browser" />
-				</svg>
-				<span>KernValley.US<span class="mobile-hidden"> | Home</span></span>
-			</a>
-		</div>
-	</div>
-	<hr />
-	<div class="copyright">
-		<span>&copy;</span>
-		<time itemprop="copyrightYear">{{ 'now' | date: '%Y' }}</time>
-		<span itemprop="copyrightHolder" itemtype="https://schema.org/Organization" itemscope="">
-			<a href="https://kernvalley.us" target="_blank" rel="external noopener" itemprop="url">
-				<span itemprop="name">KernValley.US</span>
-				<meta itemprop="logo" content="https://kernvalley.us/img/icon-192.png" />
-			</a>
-		</span>
-=======
 			<a class="block" href="https://shgysk8zer0.github.io" target="_blank" rel="external noopener" itemprop="sameAs">
 				{% include icon.html icon="web-browser" class="current-color icon social-icon" %}
 				<span>My Website</span>
@@ -86,10 +30,14 @@
 				<span>LinkedIn</span>
 			</a>
 		</div>
-		<button type="button" is="pwa-install" class="btn btn-primary cursor-pointer" tabindex="0" src="./service-worker.js" reloadonupdate="" hidden="">
-        {% include icon.html icon="system-software-install" %}
-        <span>Install App</span>
-    </button>
+	</div>
+	<div>
+		{% if site.service_worker %}
+			<button type="button" is="pwa-install" class="btn btn-primary cursor-pointer" tabindex="0" src="{{ site.service_worker }}" reloadonupdate="" hidden="">
+				{% include icon.html icon="system-software-install" %}
+				<span>Install App</span>
+			</button>
+		{% endif %}
 	</div>
 	<hr />
 	<div class="copyright">
@@ -106,6 +54,5 @@
 				</span>
 			</div>
 		</github-user>
->>>>>>> patch/rebase
 	</div>
 </footer>

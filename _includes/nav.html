@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-<nav id="nav" class="sticky top shadow background-accent color-alt z-3 clearfix">
-	{% if page.url != '/' %}
-		<a href="{{ '/' }}" rel="bookmark" title="Home" class="color-inherit" title="Home">
-			{% include icon.html icon='logo' class='current-color icon' %}
-		</a>
-	{% endif %}
-	<button is="login-button" title="Sign In" class="btn btn-accept float-right" hidden="">Sign In</button>
-	<button is="logout-button" title="Sign Out" class="btn btn-reject float-right" hidden="">Sign Out</button>
-=======
 <nav id="nav" class="sticky top shadow background-accent color-alt z-3 flex row nowrap">
 	{% for link in site.data.nav-links %}
 		<a href="{{ link.href }}" class="nav-link center inline-block{% if link.href == page.url %} active no-pointer-events{% endif %}" title="{{ link.label }}">
@@ -16,5 +6,4 @@
 			<span class="nav-link-label">{{ link.label }}</span>
 		</a>
 	{% endfor %}
->>>>>>> patch/rebase
 </nav>

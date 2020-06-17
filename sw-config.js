@@ -1,75 +1,4 @@
 ---
-<<<<<<< HEAD
----
-/* eslint no-unused-vars: 0 */
-const config = {
-	version: '{{ site.version }}',
-	fresh: [
-		/* Jekyll pinned posts */
-		'{{ site.posts | where: "pinned", true | map: "url" | join: "', '" }}',
-		/* Jekyll pinned pages */
-		'{{ site.pages | where: "pinned", true | map: "url" | join: "', '" }}',
-	],
-	stale: [
-		/* JavaScript */
-		'/js/index.js',
-		'https://cdn.kernvalley.us/js/std-js/deprefixer.js',
-		'https://cdn.kernvalley.us/js/std-js/shims.js',
-		'https://cdn.kernvalley.us/js/std-js/md5.js',
-		'https://cdn.kernvalley.us/js/std-js/Notification.js',
-		'https://cdn.kernvalley.us/js/std-js/share-config.js',
-		'https://cdn.kernvalley.us/js/std-js/webShareApi.js',
-		'https://cdn.kernvalley.us/js/std-js/esQuery.js',
-		'https://cdn.kernvalley.us/js/std-js/functions.js',
-		'https://cdn.kernvalley.us/js/std-js/asyncDialog.js',
-		'https://cdn.kernvalley.us/js/User.js',
-		/* Custom Elements */
-		'https://cdn.kernvalley.us/components/share-button.js',
-		'https://cdn.kernvalley.us/components/current-year.js',
-		'https://cdn.kernvalley.us/components/login-button.js',
-		'https://cdn.kernvalley.us/components/logout-button.js',
-		'https://cdn.kernvalley.us/components/register-button.js',
-		'https://cdn.kernvalley.us/components/gravatar-img.js',
-		'https://cdn.kernvalley.us/components/login-form/login-form.js',
-		'https://cdn.kernvalley.us/components/registration-form/registration-form.js',
-		'https://cdn.kernvalley.us/components/login-form/login-form.html',
-		'https://cdn.kernvalley.us/components/registration-form/registration-form.html',
-		/* Stylesheets */
-		'/css/index.css',
-		'/css/vars.css',
-		'/css/layout.css',
-		'/css/header.css',
-		'/css/nav.css',
-		'/css/main.css',
-		'/css/sidebar.css',
-		'/css/footer.css',
-		'https://cdn.kernvalley.us/css/core-css/rem.css',
-		'https://cdn.kernvalley.us/css/core-css/viewport.css',
-		'https://cdn.kernvalley.us/css/core-css/element.css',
-		'https://cdn.kernvalley.us/css/core-css/class-rules.css',
-		'https://cdn.kernvalley.us/css/core-css/utility.css',
-		'https://cdn.kernvalley.us/css/core-css/fonts.css',
-		'https://cdn.kernvalley.us/css/core-css/animations.css',
-		'https://cdn.kernvalley.us/css/core-css/theme/base.css',
-		'https://cdn.kernvalley.us/css/core-css/theme/default/index.css',
-		'https://cdn.kernvalley.us/css/core-css/theme/default/light.css',
-		'https://cdn.kernvalley.us/css/core-css/theme/default/dark.css',
-		'https://cdn.kernvalley.us/css/core-css/layout/index.css',
-		'https://cdn.kernvalley.us/css/core-css/layout/shared.css',
-		'https://cdn.kernvalley.us/css/core-css/layout/multi-column.css',
-		'https://cdn.kernvalley.us/css/core-css/layout/default/index.css',
-		'https://cdn.kernvalley.us/css/core-css/layout/wide/index.css',
-		'https://cdn.kernvalley.us/css/core-css/layout/left-sidebar/index.css',
-		'https://cdn.kernvalley.us/css/core-css/layout/right-sidebar/index.css',
-		'https://cdn.kernvalley.us/css/normalize/normalize.css',
-		'https://cdn.kernvalley.us/css/animate.css/animate.css',
-		/* Icons & Images */
-		'/img/neon.svg',
-		'{{ site.icons }}',
-		'/img/apple-touch-icon.png',
-		'/img/icon-192.png',
-		'/img/favicon.svg',
-=======
 layout: null
 ---
 'use strict';
@@ -82,16 +11,18 @@ const config = {
 		'{{ site.posts | where: "pinned", true | map: "url" | join: "', '" }}',
 	].map(path => new URL(path, location.origin).href),
 	stale: [
-		/* Other HTML */
+		/* Main resources */
 		'/css/index.min.css',
 		'/js/index.min.js',
 		'/img/icons.svg',
+		/* Other HTML */
 		'https://cdn.kernvalley.us/components/toast-message.html',
 		'https://cdn.kernvalley.us/components/leaflet/map.html',
 		'https://cdn.kernvalley.us/components/share-to-button/share-to-button.html',
 		'https://cdn.kernvalley.us/components/slide-show/slide-show.html',
 		'https://cdn.kernvalley.us/components/github/user.html',
 		'https://cdn.kernvalley.us/components/spotify/player.html',
+		'https://cdn.kernvalley.us/components/pwa/prompt.html',
 
 		/* JS, `customElements`, etc. */
 		'https://polyfill.io/v3/polyfill.min.js',
@@ -105,13 +36,11 @@ const config = {
 		'/img/icon-192.png',
 		'/img/icon-32.png',
 		'/img/favicon.svg',
-		'/img/neon.svg',
 		'https://cdn.kernvalley.us/img/adwaita-icons/actions/mail-send.svg',
 		'https://cdn.kernvalley.us/img/adwaita-icons/actions/mark-location.svg',
 		'https://cdn.kernvalley.us/img/octicons/file-media.svg',
 		'https://avatars2.githubusercontent.com/u/1627459?v=4&s=64',
 
->>>>>>> patch/rebase
 		/* Social Icons for Web Share API shim */
 		'https://cdn.kernvalley.us/img/octicons/mail.svg',
 		'https://cdn.kernvalley.us/img/logos/facebook.svg',
@@ -120,12 +49,6 @@ const config = {
 		'https://cdn.kernvalley.us/img/logos/linkedin.svg',
 		'https://cdn.kernvalley.us/img/logos/reddit.svg',
 		'https://cdn.kernvalley.us/img/logos/gmail.svg',
-<<<<<<< HEAD
-		'https://cdn.kernvalley.us/img/adwaita-icons/actions/mail-send.svg',
-		'https://cdn.kernvalley.us/img/logos/instagram.svg',
-		'https://cdn.kernvalley.us/fonts/roboto.woff2',
-	].filter(item => item !== '').map(path => new URL(path, location.origin).href),
-=======
 		'https://cdn.kernvalley.us/img/logos/instagram.svg',
 
 		/* Fonts */
@@ -140,5 +63,4 @@ const config = {
 		/https:\/\/avatars2\.githubusercontent\.com\/u\/*/,
 		/https:\/\/api\.github\.com\/users\/*/,
 	],
->>>>>>> patch/rebase
 };

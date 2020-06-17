@@ -9,18 +9,8 @@
   for="/*"
   [headers.values]
     Link = '''
-<<<<<<< HEAD
-      </css/index.css>; rel=preload; as=style, \
-      </css/js/index.js>; rel=preload; as=script, \
-=======
-<<<<<<< HEAD
       </css/index.min.css>; rel=preload; as=style, \
       </js/index.min.js>; rel=preload; as=script, \
-=======
-      </css/index.css>; rel=preload; as=style, \
-      </css/js/index.js>; rel=preload; as=script, \
->>>>>>> Initial commit
->>>>>>> patch/rebase
       </img/icons.svg>; rel=preload; as=image
     '''
     X-Frame-Options = "DENY"
@@ -31,13 +21,10 @@
     Content-Security-Policy = '''
       default-src 'self';
       base-uri 'self';
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
       img-src 'self' https://i.imgur.com https://cdn.kernvalley.us https://secure.gravatar.com https://maps.wikimedia.org/osm-intl/ https://via.placeholder.com https://*.githubusercontent.com/;
       script-src 'self' moz-extension: https://cdn.kernvalley.us https://unpkg.com/ https://www.google-analytics.com/ https://www.googletagmanager.com https://polyfill.io/ https://cdn.polyfill.io/ https://www.youtube.com/ https://www.youtube-nocookie.com/;
       style-src 'self' 'unsafe-inline' https://cdn.kernvalley.us https://unpkg.com/ https://fonts.googleapis.com/ https://www.youtube.com/ https://www.youtube-nocookie.com/;
-      connect-src 'self' https://cdn.kernvalley.us https://api.kernvalley.us https://api.github.com/ https://unpkg.com/ https://polyfill.io/ https://cdn.polyfill.io/ https://www.google-analytics.com/ https://www.googletagmanager.com/ https://i.imgur.com https://secure.gravatar.com https://maps.wikimedia.org/osm-intl/ https://fonts.gstatic.com/  https://fonts.googleapis.com/ https://via.placeholder.com;
+      connect-src 'self' https://cdn.kernvalley.us https://api.kernvalley.us https://api.github.com/ https://unpkg.com/ https://polyfill.io/ https://cdn.polyfill.io/  https://avatars2.githubusercontent.com/u/ https://www.google-analytics.com/ https://www.googletagmanager.com/ https://i.imgur.com https://secure.gravatar.com https://maps.wikimedia.org/osm-intl/ https://fonts.gstatic.com/  https://fonts.googleapis.com/ https://via.placeholder.com;
       font-src 'self' https://cdn.kernvalley.us https://fonts.gstatic.com/;
       media-src 'none';
       frame-src https://www.youtube.com https://www.youtube-nocookie.com https://disqus.com;
@@ -46,25 +33,6 @@
       manifest-src 'self';
       form-action 'self';
       reflected-xss block;
-=======
->>>>>>> patch/rebase
-      img-src *;
-      script-src 'self' https://cdn.kernvalley.us;
-      style-src 'self' 'unsafe-inline' https://cdn.kernvalley.us;
-      connect-src 'self' https://cdn.kernvalley.us https://api.kernvalley.us https://api.openweathermap.org/data/2.5/;
-      worker-src: 'self';
-      font-src 'self' https://cdn.kernvalley.us;
-      media-src 'none';
-      child-src 'self';
-      object-src: 'none';
-      manifest-src 'self';
-      form-action 'self';
-      reflected-xss block;
-      report-uri https://api.kernvalley.us/Errors/CSP/
-<<<<<<< HEAD
-=======
->>>>>>> Initial commit
->>>>>>> patch/rebase
       block-all-mixed-content;
       upgrade-insecure-requests;
       disown-opener;'''

@@ -1,29 +1,15 @@
 ---
-<<<<<<< HEAD
----
-'use strict';
-/*eslint no-undef: 0*/
-/* {{ site.time | date: data_to_xmlschema }} */
-=======
 layout: null
 ---
 'use strict';
 /*eslint no-undef: 0*/
 /* {{ site.data.app.version }} */
->>>>>>> patch/rebase
 self.importScripts('/sw-config.js');
 
 self.addEventListener('install', async event => {
 	event.waitUntil((async () => {
 		try {
 			for (const key of await caches.keys()) {
-<<<<<<< HEAD
-				await caches.delete(key);
-			}
-
-			const cache = await caches.open(config.version);
-			await cache.addAll(config.stale);
-=======
 				if (key !== 'user') {
 					await caches.delete(key);
 				}
@@ -31,7 +17,6 @@ self.addEventListener('install', async event => {
 
 			const cache = await caches.open(config.version);
 			await cache.addAll([...config.stale || [], ...config.fresh || []]);
->>>>>>> patch/rebase
 		} catch (err) {
 			console.error(err);
 		}
@@ -41,11 +26,7 @@ self.addEventListener('install', async event => {
 self.addEventListener('activate', event => event.waitUntil(clients.claim()));
 
 self.addEventListener('fetch', event => {
-<<<<<<< HEAD
-	if (event.request.method === 'GET' && event.request.url.startsWith(location.origin)) {
-=======
 	if (event.request.method === 'GET') {
->>>>>>> patch/rebase
 		event.respondWith((async () => {
 			const url = new URL(event.request.url);
 			url.hash = '';
@@ -61,26 +42,6 @@ self.addEventListener('fetch', event => {
 					const cache = await caches.open(config.version);
 
 					if (resp.ok) {
-<<<<<<< HEAD
-						cache.add(resp.clone());
-					}
-					return resp;
-				} else {
-					return caches.match(event.request);
-				}
-			} else if (Array.isArray(config.allowed) && config.allowed.some(host => new URL(event.request.url).host === host)) {
-				const resp = await caches.match(event.request);
-				if (resp instanceof Response) {
-					return resp;
-				} else if (navigator.onLine) {
-					const resp = await fetch(event.request);
-					const cache = await caches.open(config.version);
-					cache.add(resp.clone());
-					return resp;
-				}
-			} else {
-				return fetch(event.request.url);
-=======
 						cache.put(event.request, resp.clone());
 					}
 					return resp;
@@ -113,7 +74,6 @@ self.addEventListener('fetch', event => {
 				}
 			} else {
 				return fetch(event.request);
->>>>>>> patch/rebase
 			}
 		})());
 	}
