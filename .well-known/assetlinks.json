@@ -4,6 +4,8 @@
     "namespace": "android_app",
     "package_name": "com.courier.twa",
     "sha256_cert_fingerprints": [
+      "B1:7B:C1:02:4D:34:4A:74:B2:1A:57:39:F4:2E:5A:86:9C:13:AF:35:06:93:72:59:58:84:02:B3:A8:65:BE:1C",
+      "E1:27:CC:E1:3A:2C:69:24:19:66:BE:45:F2:00:58:83:78:5E:17:06:89:F8:9B:AD:B5:B5:54:FE:A4:AD:85:A9",
       "B1:7B:C1:02:4D:34:4A:74:B2:1A:57:39:F4:2E:5A:86:9C:13:AF:35:06:93:72:59:58:84:02:B3:A8:65:BE:1C"
     ]
   }
