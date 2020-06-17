@@ -19,6 +19,7 @@
 		grid-template-columns: 100%;
 	}
 }
+
 input[hidden] + label[for].btn-toggle {
 	background-color: var(--button-disabled-background);
 	margin: 0.3rem;
