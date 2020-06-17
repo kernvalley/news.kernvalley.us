@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.courier.twa",
+    "sha256_cert_fingerprints": [
+      "0C:5A:43:F2:5E:96:26:69:84:4A:E2:19:DF:4E:FA:7E:FE:85:AF:21:60:EC:AC:65:79:0F:53:5A:B0:FA:3E:6A"
+    ]
+  }
+}]

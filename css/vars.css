@@ -1,4 +1,6 @@
 :root {
+	--accent-color-light: #00927f;
+	--accent-color-dark: var(--accent-color-light);
 	--scrollbar-track: var(--primary-color);
 	--scrollbar-color: var(--accent-color);
 	--map-width: 100%;
