@@ -1,7 +1,10 @@
 :root {
 	--accent-color-light: #00927f;
 	--accent-color-dark: var(--accent-color-light);
+	--button-active-background-light: #2E766D;
+	--button-active-background-dark: var(--button-active-background-light);
 	--scrollbar-track: var(--primary-color);
 	--scrollbar-color: var(--accent-color);
+	--sidebar-max-width: 350px;
 	--map-width: 100%;
 }
