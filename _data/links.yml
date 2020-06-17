@@ -1,0 +1,20 @@
+nav:
+  - label: Home
+    icon: home
+    href: "/"
+  - label: Events
+    icon: calendar
+    href: "https://events.kernvalley.us"
+footer:
+  - text: Contact
+    href: /contact/
+    icon: address-book
+  - text: Privacy Policy
+    href: /privacy/
+    icon: eye
+  - text: Events
+    href: "https://events.kernvalley.us"
+    icon: calendar
+  - text: Report Issue
+    href: "https://github.com/kernvalley/news.kernvalley.us/issues/"
+    icon: issue-opened
