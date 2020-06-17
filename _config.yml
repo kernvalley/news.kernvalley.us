@@ -1,8 +1,15 @@
 author: Chris Zuber
+<<<<<<< HEAD
 title: Kern River Courier
 url: 'https://news.kernvalley.us'
 markdown: kramdown
 version: 1.0.3
+=======
+title: Kern Valley News
+url: 'https://news.kernvalley.us'
+markdown: kramdown
+version: 1.0.0
+>>>>>>> patch/rebase
 timezone: America/Los_Angeles
 lang: en
 dir: ltr
@@ -14,16 +21,24 @@ robots: 'follow, index'
 referrer: origin-when-cross-origin
 manifest: /manifest.json
 tiles-config: /browserconfig.xml
+<<<<<<< HEAD
 service_worker: '/service-worker.js'
+=======
+service_worker: "./service-worker.js"
+>>>>>>> patch/rebase
 og-type: website
 description: "News for the Kern River Valley"
 mobile-web-app-capable: true
 # canonical: ''
 keywords:
 - news
+<<<<<<< HEAD
 - Kern Valley
 - Kern River Valley
 - Kern River Courier
+=======
+- KernValley
+>>>>>>> patch/rebase
 repository:
   username: kernvalley
   project: 'news.kernvalley.us'
@@ -33,14 +48,18 @@ feed:
   url: /feed.rss
   type: application/rss+xml
 icons: '/img/icons.svg'
+<<<<<<< HEAD
 theme-color: '#00927f'
 background-color: '#242424'
+=======
+>>>>>>> patch/rebase
 # discus-identifier:
 # google-analytics:
 # ad-sense:
 # webmaster-verifications:
 #   google:
 #   bing:
+<<<<<<< HEAD
 scripts:
   development:
   - src: 'https://cdn.polyfill.io/v2/polyfill.min.js'
@@ -81,13 +100,18 @@ screenshots:
 - src: 'https://i.imgur.com/uRKaQQQl.png'
   sizes: 640x354
   type: image/png
+=======
+>>>>>>> patch/rebase
 defaults:
 - scope:
     path: _posts
   values:
     layout: post
     itemtype: NewsArticle
+<<<<<<< HEAD
     columns: auto
+=======
+>>>>>>> patch/rebase
     author:
       givenName: Chris
       familyName: Zuber
@@ -97,7 +121,11 @@ defaults:
       twitter: shgysk8zer0
       linkedin: chris-zuber-455346141/
     publisher:
+<<<<<<< HEAD
       name: 'KernValley.us'
+=======
+      name: 'KernValley.US'
+>>>>>>> patch/rebase
       url: 'https://kernvalley.us'
       logo:
         url: 'https://kernvalley.us/img/icon-256.png'
@@ -110,12 +138,16 @@ defaults:
   values:
     layout: post
     itemtype: NewsArticle
+<<<<<<< HEAD
     columns: auto
+=======
+>>>>>>> patch/rebase
     author:
       givenName: Chris
       familyName: Zuber
       url: 'https://shgysk8zer0.github.io'
       gravatar: '43578597e449298f5488c2407c8a8ae5'
+<<<<<<< HEAD
       github: shgysk8zer0
       twitter: shgysk8zer0
       linkedin: chris-zuber-455346141/
@@ -124,6 +156,15 @@ defaults:
       url: 'https://kernvalley.us'
       logo:
         url: 'https://kernvalley.us/img/icon-256.png'
+=======
+      github: 'shgysk8zer0'
+      twitter: shgysk8zer0
+    publisher:
+      name: 'KernValley.US'
+      url: 'https://kernvalley.us'
+      logo:
+              url: 'https://kernvalley.us/img/icon-256.png'
+>>>>>>> patch/rebase
     permalink: /posts/:categories/:year/:month/:day/:title/
     comments: false
     ads: false
@@ -133,6 +174,14 @@ plugins:
 - jekyll-admin
 - jekyll-watch
 - jekyll-paginate
+<<<<<<< HEAD
+=======
+include:
+# Folders with dotfiles are ignored by default.
+- .well-known
+- _headers
+- _redirects
+>>>>>>> patch/rebase
 exclude:
 - ".gitkeep"
 - "*.rb"

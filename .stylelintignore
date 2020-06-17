@@ -1,9 +1,14 @@
 /img/
 /js/
 /fonts/
+<<<<<<< HEAD
 /css/vars.css
 /node_modules/
 /_site/
+=======
+/_site/
+/node_modules/
+>>>>>>> patch/rebase
 /css/core-css/
 /css/normalize.css/
 /css/animate.css/

@@ -11,10 +11,16 @@ pinned-posts: 5
 <html
 	lang="{{ site.lang }}"
 	dir="{{ site.dir }}"
+<<<<<<< HEAD
 	class="no-js border-box smooth-scroll"
 	data-theme="{{ page.theme | default: layout.theme }}"
 	data-layout="{{ layout.name }}"
 	{% if site.service_worker %}data-service-worker="{{ site.service_worker }}"{% endif %}
+=======
+	class="no-js border-box scroll-smooth"
+	data-theme="{{ page.theme | default: layout.theme }}"
+	data-layout="{{ layout.name }}"
+>>>>>>> patch/rebase
 	{% if site.google-analytics %}data-google-analytics="{{ site.google-analytics }}"{% endif %}
 	{% if page.ads %}data-ad-sense-id="{{ site.ad-sense }}"{% endif %}
 	{% if page.pageLevelAds %}data-page-level-ads="{{ page.pageLevelAds }}"{% endif %}

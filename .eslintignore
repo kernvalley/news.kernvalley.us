@@ -5,5 +5,9 @@
 /fonts/
 /js/std-js/
 /js/svg4everybody/
+<<<<<<< HEAD
+=======
+/service-worker.js
+>>>>>>> patch/rebase
 *.min.js
 *.config.js

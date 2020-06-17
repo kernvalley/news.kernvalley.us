@@ -1,19 +1,37 @@
 ---
+<<<<<<< HEAD
 ---
 'use strict';
 /*eslint no-undef: 0*/
 /* {{ site.time | date: data_to_xmlschema }} */
+=======
+layout: null
+---
+'use strict';
+/*eslint no-undef: 0*/
+/* {{ site.data.app.version }} */
+>>>>>>> patch/rebase
 self.importScripts('/sw-config.js');
 
 self.addEventListener('install', async event => {
 	event.waitUntil((async () => {
 		try {
 			for (const key of await caches.keys()) {
+<<<<<<< HEAD
 				await caches.delete(key);
 			}
 
 			const cache = await caches.open(config.version);
 			await cache.addAll(config.stale);
+=======
+				if (key !== 'user') {
+					await caches.delete(key);
+				}
+			}
+
+			const cache = await caches.open(config.version);
+			await cache.addAll([...config.stale || [], ...config.fresh || []]);
+>>>>>>> patch/rebase
 		} catch (err) {
 			console.error(err);
 		}
@@ -23,7 +41,11 @@ self.addEventListener('install', async event => {
 self.addEventListener('activate', event => event.waitUntil(clients.claim()));
 
 self.addEventListener('fetch', event => {
+<<<<<<< HEAD
 	if (event.request.method === 'GET' && event.request.url.startsWith(location.origin)) {
+=======
+	if (event.request.method === 'GET') {
+>>>>>>> patch/rebase
 		event.respondWith((async () => {
 			const url = new URL(event.request.url);
 			url.hash = '';
@@ -39,6 +61,7 @@ self.addEventListener('fetch', event => {
 					const cache = await caches.open(config.version);
 
 					if (resp.ok) {
+<<<<<<< HEAD
 						cache.add(resp.clone());
 					}
 					return resp;
@@ -57,6 +80,40 @@ self.addEventListener('fetch', event => {
 				}
 			} else {
 				return fetch(event.request.url);
+=======
+						cache.put(event.request, resp.clone());
+					}
+					return resp;
+				} else {
+					return caches.match(event.request.url);
+				}
+			} else if (Array.isArray(config.allowed) && config.allowed.some(entry => (
+				entry instanceof RegExp
+					? entry.test(event.request.url)
+					: url.host === entry
+			))) {
+				const resp = await caches.match(event.request.url);
+				if (resp instanceof Response) {
+					return resp;
+				} else if (navigator.onLine) {
+					const resp = await fetch(event.request.url, {
+						mode: 'cors',
+						headers: event.request.headers,
+					});
+
+					if (resp instanceof Response) {
+						const cache = await caches.open(config.version);
+						cache.put(event.request.url, resp.clone());
+						return resp;
+					} else {
+						console.error(`Failed in request for ${event.request.url}`);
+					}
+				} else {
+					console.error('Offline');
+				}
+			} else {
+				return fetch(event.request);
+>>>>>>> patch/rebase
 			}
 		})());
 	}

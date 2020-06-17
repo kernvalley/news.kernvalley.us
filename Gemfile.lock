@@ -90,7 +90,11 @@ DEPENDENCIES
   jekyll-youtube (~> 1.0)
 
 RUBY VERSION
+<<<<<<< HEAD
    ruby 2.6.2p47
+=======
+   ruby 2.4.1p111
+>>>>>>> patch/rebase
 
 BUNDLED WITH
    1.17.3
