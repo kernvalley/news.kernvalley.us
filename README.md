@@ -14,7 +14,7 @@ News for the Kern River Valley
 ![GitHub forks](https://img.shields.io/github/forks/kernvalley/news.kernvalley.us.svg?style=social)
 ![GitHub stars](https://img.shields.io/github/stars/kernvalley/news.kernvalley.us.svg?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/kernvalley.svg?style=social)
-- - - 
+- - -
 
 - [Code of Conduct](./.github/CODE_OF_CONDUCT.md)
 - [Contributing](./.github/CONTRIBUTING.md)
