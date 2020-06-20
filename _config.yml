@@ -33,6 +33,19 @@ feed:
   url: /feed.rss
   type: application/rss+xml
 icons: '/img/icons.svg'
+collections:
+  local:
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  national:
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  community:
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  opinion:
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
 # discus-identifier:
 # google-analytics:
 # ad-sense:
