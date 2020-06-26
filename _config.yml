@@ -34,6 +34,7 @@ feed:
   type: application/rss+xml
 icons: '/img/icons.svg'
 collections:
+  # @TODO Add icons to each section here
   local:
     output: true
     permalink: /:collection/:year/:month/:day/:title/
