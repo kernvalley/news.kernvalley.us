@@ -3,7 +3,18 @@
 		<a href="{{ link.href }}" class="nav-link center inline-block{% if link.href == page.url %} active no-pointer-events{% endif %}" title="{{ link.label }}">
 			{% include icon.html icon=link.icon %}
 			<br />
-			<span class="nav-link-label">{{ link.label }}</span>
+			<span class="nav-link-label mobile-hidden">{{ link.label }}</span>
+		</a>
+	{% endfor %}
+	{% for section in site.collections %}
+		<a href="/#{{ section.label | slugify }}" class="nav-link center inline-block" title="{{ section.label }}">
+			{% if section.icon %}
+				{% include icon.html icon=section.icon %}
+			{% else %}
+				{% include icon.html icon="tag" %}
+			{% endif %}
+			<br />
+			<span class="capitalize mobile-hidden">{{ section.label }}</span>
 		</a>
 	{% endfor %}
 </nav>
