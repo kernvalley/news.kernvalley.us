@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.0.2] - 2020-06-28
 
 ### Fixed
-- Set `og:image` correctly
+- Set `og:image` correctly [#15](https://github.com/kernvalley/news.kernvalley.us/ussues/16)
 
 ## [v1.0.1] - 2020-06-25
 
