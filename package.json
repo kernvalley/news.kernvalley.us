@@ -2,7 +2,7 @@
   "name": "news-kernvalley-us",
   "version": "1.0.5",
   "private": true,
-  "description": "A template repository for Jekyll sites, including skeleton JS, CSS, SVGs, fonts, etc.",
+  "description": "Kern River Courier web app",
   "config": {
     "icons": "./_data/icons.csv",
     "serve": {
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shgysk8zer0/jekyll-template.git"
+    "url": "git+https://github.com/kernvalley/news.kernvalley.us.git"
   },
   "keywords": [
     "jekyll",
@@ -30,12 +30,12 @@
     "svg",
     "icons"
   ],
-  "author": "Chris Zuber <shgysk8zer0@gmail.com>",
+  "author": "Chris Zuber <admin@kernvalley.us>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shgysk8zer0/jekyll-template/issues"
+    "url": "https://github.com/kernvalley/news.kernvalley.us/issues"
   },
-  "homepage": "https://github.com/shgysk8zer0/jekyll-template",
+  "homepage": "https://news.kernvalley.us",
   "scripts": {
     "test": "npm run lint",
     "start": "npm run netlify",
@@ -72,7 +72,7 @@
     "eslint": "^7.4.0",
     "eslint-plugin-async-await": "0.0.0",
     "eslint-plugin-babel": "^5.3.1",
-    "netlify-cli": "^2.54.0",
+    "netlify-cli": "^2.57.0",
     "postcss": "^7.0.32",
     "postcss-cli": "^7.1.1",
     "postcss-cssnext": "^3.1.0",
