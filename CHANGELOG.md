@@ -1,3 +1,11 @@
+---
+layout: page
+title: CHANGELOG
+description: List of changes
+robots: noindex
+permalink: /changelog/
+---
+<!-- markdownlint-disable -->
 # Changelog
 All notable changes to this project will be documented in this file.
 
@@ -5,8 +13,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-<!-- markdownlint-disable -->
-### [v1.0.3] - 2020-26-29
+### [v1.0.4] - 2020-07-15
+
+### Updated
+- Components now use external stylesheets
+- Enable project-wide linting
+### [v1.0.3] - 2020-06-29
 
 ### Added
 - Dependabot now watches Git submodules

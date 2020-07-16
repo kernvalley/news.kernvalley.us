@@ -1,5 +1,6 @@
+/* eslint-env node */
 import urlResolve from 'rollup-plugin-url-resolve';
-import {terser} from 'rollup-plugin-terser';
+import { terser } from 'rollup-plugin-terser';
 
 export default {
 	input: 'js/index.js',
