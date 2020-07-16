@@ -18,6 +18,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updated
 - Components now use external stylesheets
 - Enable project-wide linting
+- Block `unsafe-inline` styles in CSP
+
 ### [v1.0.3] - 2020-06-29
 
 ### Added
