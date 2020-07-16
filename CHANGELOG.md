@@ -6,11 +6,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 <!-- markdownlint-disable -->
-## [v1.0.1] 2020-06-25
+### [v1.0.3] - 2020-26-29
+
+### Added
+- Dependabot now watches Git submodules
+
+## [v1.0.2] - 2020-06-28
+
+### Fixed
+- Set `og:image` correctly [#15](https://github.com/kernvalley/news.kernvalley.us/ussues/16)
+
+## [v1.0.1] - 2020-06-25
 
 ### Added
 - Dependabot config
 - Changelog
-## [v1.0.0] 2020-06-20
+## [v1.0.0] - 2020-06-20
 Initial Version Release
 <!-- markdownlint-restore -->
