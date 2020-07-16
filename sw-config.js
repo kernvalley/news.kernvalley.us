@@ -1,8 +1,9 @@
 ---
 layout: null
 ---
+/* eslint no-unused-vars: 0 */
+/* eslint-env serviceworker */
 'use strict';
-/*eslint no-unused-vars: 0*/
 const config = {
 	version: '{{ site.data.app.version | default: site.version }}',
 	fresh: [
@@ -21,7 +22,6 @@ const config = {
 		'https://cdn.kernvalley.us/components/share-to-button/share-to-button.html',
 		'https://cdn.kernvalley.us/components/slide-show/slide-show.html',
 		'https://cdn.kernvalley.us/components/github/user.html',
-		'https://cdn.kernvalley.us/components/spotify/player.html',
 		'https://cdn.kernvalley.us/components/pwa/prompt.html',
 
 		/* JS, `customElements`, etc. */
@@ -29,6 +29,12 @@ const config = {
 
 		/* CSS */
 		'https://unpkg.com/leaflet@1.6.0/dist/leaflet.css',
+		'https://cdn.kernvalley.us/components/toast-message.css',
+		'https://cdn.kernvalley.us/components/leaflet/map.css',
+		'https://cdn.kernvalley.us/components/share-to-button/share-to-button.css',
+		'https://cdn.kernvalley.us/components/slide-show/slide-show.css',
+		'https://cdn.kernvalley.us/components/github/user.css',
+		'https://cdn.kernvalley.us/components/pwa/prompt.css',
 
 		/* Images & Icons */
 		'/img/apple-touch-icon.png',

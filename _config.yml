@@ -2,7 +2,7 @@ author: Chris Zuber
 title: Kern River Courier
 url: 'https://news.kernvalley.us'
 markdown: kramdown
-version: 1.0.0
+version: 1.0.6
 timezone: America/Los_Angeles
 lang: en
 dir: ltr
