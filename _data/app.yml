@@ -1,7 +1,10 @@
 name: Kern River Courier
 shortName: Courier
-version: 1.0.6
+version: 1.0.5
 display: standalone
+orientation: any
+lang: en
+dir: ltr
 description: "News for the Kern River Valley"
 icons-file: /img/icons.svg
 theme:
@@ -10,7 +13,8 @@ theme:
 icons:
 - src: /img/favicon.svg
   type: image/svg+xml
-  sizes: any
+  sizes: 192x192
+  purpose: maskable any
 - src: /img/apple-touch-icon.png
   rel: apple-touch-icon
   type: image/png
@@ -18,9 +22,11 @@ icons:
 - src: /img/icon-512.png
   type: image/png
   sizes: 512x512
+  purpose: maskable any
 - src: /img/icon-192.png
   type: image/png
   sizes: 192x192
+  purpose: maskable any
 - src: /img/icon-32.png
   type: image/png
   sizes: 32x32
@@ -28,8 +34,14 @@ icons:
   type: image/png
   sizes: 16x16
 screenshots:
-- src: 'https://i.imgur.com/J8h9seHl.jpg'
+- src: 'https://i.imgur.com/J8h9seHl.png'
   sizes: 640x313
+  type: image/png
+- src: 'https://i.imgur.com/J8h9seHm.png'
+  sizes: 320x156
+  type: image/png
+- src: 'https://i.imgur.com/J8h9seHt.png'
+  sizes: 160x78
   type: image/png
 related_applications:
 - platform: play

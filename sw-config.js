@@ -25,7 +25,7 @@ const config = {
 		'https://cdn.kernvalley.us/components/pwa/prompt.html',
 
 		/* JS, `customElements`, etc. */
-		'https://polyfill.io/v3/polyfill.min.js',
+		'https://cdn.polyfill.io/v3/polyfill.min.js',
 
 		/* CSS */
 		'https://unpkg.com/leaflet@1.6.0/dist/leaflet.css',
