@@ -14,6 +14,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v1.0.6] - 2020-08-08
+
+### Changed
+- Dynanmically load polyfill.io & Google Anayltics
+- Update various components / templates / `_includes/`
+
 ## [v1.0.5] - 2020-07-18
 
 ### Updated
