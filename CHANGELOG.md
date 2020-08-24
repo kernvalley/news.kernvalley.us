@@ -14,6 +14,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Google Analytics
+
+### Changed
+- Misc. config and template updates
+
 ## [v1.0.6] - 2020-08-08
 
 ### Changed
