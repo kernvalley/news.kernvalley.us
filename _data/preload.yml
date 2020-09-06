@@ -1,5 +1,51 @@
-# - href: 'https://cdn.kernvalley.us/components/github/user.html'
-#   as: fetch
-#   type: text/html
-#   crossorigin: anonymous
-#   referrerPolicy: origin-when-crossorigin
+- href: 'https://cdn.kernvalley.us/components/github/user.html'
+  as: fetch
+  type: text/html
+  crossOrigin: anonymous
+  referrerPolicy: no-referrer
+- href: 'https://cdn.kernvalley.us/components/github/user.css'
+  as: style
+  type: text/css
+  crossOrigin: anonymous
+  referrerPolicy: no-referrer
+- href: "https://cdn.polyfill.io/v3/polyfill.min.js"
+  as: script
+  type: text/javascript
+  crossOrigin: anonymous
+  referrerPolicy: no-referrer
+  importance: high
+- href: "https://cdn.kernvalley.us/fonts/roboto.woff2"
+  as: font
+  type: font/woff2
+  referrerPolicy: no-referrer
+  importance: high
+- href: "/img/uploads/2019/12/background-1280.jpg"
+  as: image
+  type: image/jpeg
+  referrerPolicy: no-referrer
+  media: "(min-width: 1025px)"
+  importance: high
+- href: "/img/uploads/2019/12/background-1280.jpg"
+  as: image
+  type: image/jpeg
+  referrerPolicy: no-referrer
+  media: "((min-width: 801px) and (max-width: 1024px))"
+  importance: high
+- href: "/img/uploads/2019/12/background-800.jpg"
+  as: image
+  type: image/jpeg
+  referrerPolicy: no-referrer
+  media: "((min-width: 641px) and (max-width: 800px))"
+  importance: high
+- href: "/img/uploads/2019/12/background-640.jpg"
+  as: image
+  type: image/jpeg
+  referrerPolicy: no-referrer
+  media: "(max-width: 640px) and (min-width: 321px)"
+  importance: high
+- href: "/img/uploads/2019/12/background-320.jpg"
+  as: image
+  type: image/jpeg
+  referrerPolicy: no-referrer
+  media: "(max-width: 320px)"
+  importance: high

@@ -14,11 +14,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v1.0.7] - 2020-09-06
+
 ### Added
 - Google Analytics
+- Track external link clicks with GA
 
 ### Changed
 - Misc. config and template updates
+- Update components/`_includes/`
+- Improve preloading
+
+### Fixed
+- Disable bash linting for issue with `.rvmrc`
 
 ## [v1.0.6] - 2020-08-08
 
