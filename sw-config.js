@@ -28,7 +28,7 @@ const config = {
 		'https://cdn.polyfill.io/v3/polyfill.min.js',
 
 		/* CSS */
-		'https://unpkg.com/leaflet@1.6.0/dist/leaflet.css',
+		'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css',
 		'https://cdn.kernvalley.us/components/toast-message.css',
 		'https://cdn.kernvalley.us/components/leaflet/map.css',
 		'https://cdn.kernvalley.us/components/share-to-button/share-to-button.css',
