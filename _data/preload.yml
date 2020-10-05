@@ -49,3 +49,14 @@
   referrerPolicy: no-referrer
   media: "(max-width: 320px)"
   importance: high
+- href: "https://cdn.kernvalley.us/components/ad/block.css"
+  as: "style"
+  type: text/css
+  crossOrigin: anonymous
+  referrerPolicy: no-referrer
+  media: all
+- href: "https://cdn.kernvalley.us/components/ad/block.html"
+  as: "fetch"
+  type: text/html
+  crossOrigin: anonymous
+  referrerPolicy: no-referrer

@@ -23,6 +23,7 @@ const config = {
 		'https://cdn.kernvalley.us/components/slide-show/slide-show.html',
 		'https://cdn.kernvalley.us/components/github/user.html',
 		'https://cdn.kernvalley.us/components/pwa/prompt.html',
+		'https://cdn.kernvalley.us/components/ad/block.html',
 
 		/* JS, `customElements`, etc. */
 		'https://cdn.polyfill.io/v3/polyfill.min.js',
@@ -35,6 +36,7 @@ const config = {
 		'https://cdn.kernvalley.us/components/slide-show/slide-show.css',
 		'https://cdn.kernvalley.us/components/github/user.css',
 		'https://cdn.kernvalley.us/components/pwa/prompt.css',
+		'https://cdn.kernvalley.us/components/ad/block.css',
 
 		/* Images & Icons */
 		'/img/apple-touch-icon.png',
