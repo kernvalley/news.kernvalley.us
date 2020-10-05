@@ -37,6 +37,12 @@ if (typeof GA === 'string' && GA.length !== 0) {
 	});
 }
 
+document.documentElement.style.setProperty('--viewport-height', `${window.innerHeight}px`);
+
+$(window).debounce('resize', () => {
+	console.info('resize');
+	$(document.documentElement).css({'--viewport-height': `${window.innerHeight}px`});
+});
 
 Promise.allSettled([
 	ready(),
