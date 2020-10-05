@@ -14,6 +14,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Implement ads via `<ad-block>`, along with all related changes
+
 ### Changed
 - Update to Leaflet [1.7.1](https://leafletjs.com/2020/09/04/leaflet-1.7.1.html)
 
