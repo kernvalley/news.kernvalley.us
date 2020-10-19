@@ -5,9 +5,9 @@ sidebar:
   - uuid: c180201e-e40b-49d1-a069-2b09b6e99800
     label: Kern Valley Ads
     url: https://ads.kernvalley.us/
-    image: /img/ads/kv-ads.svg
-    description: Advertise on the Whiskey Flat Days App and any KernValley.US sites
-    callToAction: Your Ad Here!
+    image: https://ads.kernvalley.us/img/favicon.svg
+    description: Advertise on websites throughout the Kern River Valley
+    callToAction: Click here to get started!
     layout: stack
   - uuid: 2201758a-da5f-49a4-8a5b-0d4074b2c0ba
     label: Paradise Cove Lodge
