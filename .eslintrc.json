@@ -36,5 +36,7 @@
             "method": {"before": true, "after": false}
         }]
     },
-    "globals": {}
+    "globals": {
+      "cookieStore": "readonly"
+    }
 }
