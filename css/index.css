@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://cdn.kernvalley.us/css/core-css/theme/default/index.css");
+@import url("./vars.css");
 @import url("https://cdn.kernvalley.us/css/normalize/normalize.css");
 @import url("https://cdn.kernvalley.us/css/core-css/rem.css");
 @import url("https://cdn.kernvalley.us/css/core-css/viewport.css");
@@ -11,31 +11,12 @@
 @import url("https://cdn.kernvalley.us/css/core-css/scrollbar.css");
 @import url("https://cdn.kernvalley.us/css/core-css/accordion.css");
 @import url("./contact.css");
-@import url("./vars.css");
 @import url("./layout.css");
 
 @media (max-width: 800px) {
 	:root:not([data-layout]) > body.grid, :root[data-layout="default"] > body.grid, body.grid {
 		grid-template-columns: 100%;
 	}
-}
-
-input[hidden] + label[for].btn-toggle {
-	background-color: var(--button-disabled-background);
-	margin: 0.3rem;
-	transition: background-color 300ms ease-in-out;
-}
-
-input[hidden]:checked + label[for].btn-toggle {
-	background-color: var(--button-background);
-}
-
-input[hidden]:not(:checked) + label[for].btn-toggle .when-checked {
-	display: none;
-}
-
-input[hidden]:checked + label[for].btn-toggle .when-unchecked {
-	display: none;
 }
 
 img.avatar {
