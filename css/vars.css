@@ -1,8 +1,15 @@
+@import url("https://deploy-preview-344--hardcore-bhaskara-69a703.netlify.app/css/core-css/theme/default/index.css");
+@import url("https://deploy-preview-344--hardcore-bhaskara-69a703.netlify.app/css/core-css/theme/properties.css");
+
 :root {
 	--accent-color-light: #00927f;
 	--accent-color-dark: var(--accent-color-light);
-	--button-active-background-light: #2E766D;
-	--button-active-background-dark: var(--button-active-background-light);
+	--button-primary-background-light: var(--accent-light-light);
+	--button-primary-background-dark: var(--button-primary-color-light);
+	--button-primary-hover-background-light: var(--button-primary-background-light);
+	--button-primary-hover-background-dark: var(--button-primary-hover-background-light);
+	--button-primary-active-background-light: #2E766D;
+	--button-primary-active-background-dark: var(--button-primary-active-background-light);
 	--scrollbar-track: var(--primary-color);
 	--scrollbar-color: var(--accent-color);
 	--sidebar-max-width: 350px;
