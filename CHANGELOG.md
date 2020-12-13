@@ -14,11 +14,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v1.0.8] - 2020-12-13
+
 ### Added
 - Implement ads via `<ad-block>`, along with all related changes
+- `<button is="app-list">`
+- Theme handling via `cookieStore`
 
 ### Changed
 - Update to Leaflet [1.7.1](https://leafletjs.com/2020/09/04/leaflet-1.7.1.html)
+- Move install button to `<nav>`
+- Use component via `_includes/` for `<weather-current>`
+
+### Removed
+- Git stored copy of SVG sprites (`icons.svg`)
 
 ## [v1.0.7] - 2020-09-06
 
