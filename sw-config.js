@@ -49,6 +49,7 @@ const config = {
 		'https://cdn.kernvalley.us/img/adwaita-icons/actions/mark-location.svg',
 		'https://cdn.kernvalley.us/img/octicons/file-media.svg',
 		'https://cdn.kernvalley.us/img/keep-kern-clean.svg',
+		'https://cdn.kernvalley.us/img/markers.svg',
 
 		/* Social Icons for Web Share API shim */
 		'https://cdn.kernvalley.us/img/octicons/mail.svg',

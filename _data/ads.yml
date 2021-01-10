@@ -5,10 +5,10 @@ sidebar:
   - uuid: c180201e-e40b-49d1-a069-2b09b6e99800
     label: Kern Valley Ads
     url: https://ads.kernvalley.us/
-    image: https://ads.kernvalley.us/img/favicon.svg
+    image: https://cdn.kernvalley.us/img/branding/ads.kernvalley.us.svg
     description: Advertise on websites throughout the Kern River Valley
     callToAction: Click here to get started!
-    layout: stack
+    layout: card
   - uuid: 2201758a-da5f-49a4-8a5b-0d4074b2c0ba
     label: Paradise Cove Lodge
     image: https://www.paradisecovelodge.com/img/raster/background/restaurant-350.jpg
@@ -20,5 +20,5 @@ sidebar:
     label: Kern Valley Events
     url: https://events.kernvalley.us/
     description: The best things going on in the Valley
-    image: /img/ads/kv-events.svg
+    image: https://cdn.kernvalley.us/img/branding/events.kernvalley.us.svg
     callToAction: See what's going on today.
