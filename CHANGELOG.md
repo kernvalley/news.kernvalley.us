@@ -14,6 +14,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- `_redirects`, particularly `/contact/` -> `https://contact.kernvalley.us`
+
 ## [v1.0.8] - 2020-12-13
 
 ### Added
