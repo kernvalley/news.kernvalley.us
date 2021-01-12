@@ -6,15 +6,12 @@ nav:
     icon: calendar
     href: "https://events.kernvalley.us"
 footer:
-  - text: Contact
+  - label: Contact
     href: /contact/
     icon: address-book
-  - text: Privacy Policy
-    href: /privacy/
+  - label: Privacy Policy
+    href: https://kernvalley.us/privacy/
     icon: eye
-  - text: Events
-    href: "https://events.kernvalley.us"
+  - label: Events
+    href: https://events.kernvalley.us
     icon: calendar
-  - text: Report Issue
-    href: "https://github.com/kernvalley/news.kernvalley.us/issues/"
-    icon: issue-opened
