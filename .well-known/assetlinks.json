@@ -9,4 +9,10 @@
       "B1:7B:C1:02:4D:34:4A:74:B2:1A:57:39:F4:2E:5A:86:9C:13:AF:35:06:93:72:59:58:84:02:B3:A8:65:BE:1C"
     ]
   }
+}, {
+  "relation": ["delegate_permission/common.query_webapk"],
+  "target": {
+    "namespace": "web",
+    "site": "https://news.kernvalley.us/manifest.json"
+  }
 }]

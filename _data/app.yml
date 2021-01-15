@@ -43,9 +43,12 @@ screenshots:
   - src: 'https://i.imgur.com/J8h9seHt.png'
     sizes: 160x78
     type: image/png
+iarc_rating_id: 468d50a8-535f-4f66-b38c-057aa570a3de
 related_applications:
   - platform: play
     id: com.courier.twa
+  - platform: webapp
+    url: https://news.kernvalley.us/manifest.json
 features:
   - Unbiased and important news updated as available instead of once a week
   - No paywall or reading limits
