@@ -24,7 +24,7 @@ const config = {
 		'https://cdn.kernvalley.us/components/share-to-button/share-to-button.html',
 		'https://cdn.kernvalley.us/components/slide-show/slide-show.html',
 		'https://cdn.kernvalley.us/components/github/user.html',
-		'https://cdn.kernvalley.us/components/pwa/prompt.html',
+		'https://cdn.kernvalley.us/components/install/prompt.html',
 		'https://cdn.kernvalley.us/components/ad/block.html',
 
 		/* CSS */
@@ -34,7 +34,7 @@ const config = {
 		'https://cdn.kernvalley.us/components/share-to-button/share-to-button.css',
 		'https://cdn.kernvalley.us/components/slide-show/slide-show.css',
 		'https://cdn.kernvalley.us/components/github/user.css',
-		'https://cdn.kernvalley.us/components/pwa/prompt.css',
+		'https://cdn.kernvalley.us/components/install/prompt.css',
 		'https://cdn.kernvalley.us/components/ad/block.css',
 
 		/* Images & Icons */
@@ -63,5 +63,10 @@ const config = {
 		/https:\/\/i\.imgur\.com\/*/,
 		/https:\/\/*\.githubusercontent\.com\/u\/*/,
 		/https:\/\/api\.github\.com\/users\/*/,
+		/\.(jpg|png|svg|webp|gif)$/,
 	],
+	allowedFresh: [
+		/\.(html|css|js|json)$/,
+
+	]
 };

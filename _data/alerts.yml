@@ -1,0 +1,13 @@
+- id: 917e795e-dcfc-4adb-8871-4579adf68f69
+  title: Fire Restrictions
+  level: alert
+  startDate: 2021-05-21T00:00
+  endDate: 2021-11-30T23:59
+  url: https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd913473.pdf
+  body: |
+    Restrictions on building, maintaining, attending, or using a fire, campfire,
+    or stove fire, except in open developed campgroundsabove 5,000 feet in elevation.
+    Smoking within an enclosed vehicle; driving an internal combusion engine off
+    paved, gravel or dirt National Forest System roadsand trails, except boats on
+    a water surface; and welding, or operating an acetylene or other torch with an
+    open flame are also prohibited.
