@@ -17,7 +17,6 @@ import 'https://cdn.kernvalley.us/components/app/list-button.js';
 import { ready, loaded, toggleClass, on, css } from 'https://cdn.kernvalley.us/js/std-js/dom.js';
 import { debounce } from 'https://cdn.kernvalley.us/js/std-js/events.js';
 import { init } from 'https://cdn.kernvalley.us/js/std-js/data-handlers.js';
-import { getJSON } from 'https://cdn.kernvalley.us/js/std-js/http.js';
 import { getCustomElement } from 'https://cdn.kernvalley.us/js/std-js/custom-elements.js';
 import { importGa, externalHandler, telHandler, mailtoHandler } from 'https://cdn.kernvalley.us/js/std-js/google-analytics.js';
 import { GA } from './consts.js';
