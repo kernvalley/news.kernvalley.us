@@ -11,7 +11,9 @@ const config = {
 		'{{ site.pages | where: "pinned", true | map: "url" | join: "', '" }}',
 		'{{ site.posts | where: "pinned", true | map: "url" | join: "', '" }}',
 		'https://apps.kernvalley.us/apps.json',
-		'/manifest.json',
+		'https://events.kernvalley.us/events.json',
+		'/webapp.webmanifest',
+		'https://krv-events.disqus.com/embed.js',
 	].map(path => new URL(path, location.origin).href),
 	stale: [
 		/* Main resources */
@@ -26,6 +28,7 @@ const config = {
 		'https://cdn.kernvalley.us/components/github/user.html',
 		'https://cdn.kernvalley.us/components/install/prompt.html',
 		'https://cdn.kernvalley.us/components/ad/block.html',
+		'https://cdn.kernvalley.us/components/krv/events.html',
 
 		/* CSS */
 		'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css',
@@ -36,6 +39,7 @@ const config = {
 		'https://cdn.kernvalley.us/components/github/user.css',
 		'https://cdn.kernvalley.us/components/install/prompt.css',
 		'https://cdn.kernvalley.us/components/ad/block.css',
+		'https://cdn.kernvalley.us/components/krv/events.css',
 
 		/* Images & Icons */
 		'/img/apple-touch-icon.png',
@@ -67,6 +71,5 @@ const config = {
 	],
 	allowedFresh: [
 		/\.(html|css|js|json)$/,
-
 	]
 };
