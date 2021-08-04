@@ -6,5 +6,6 @@
 	{% for ad in site.data.ads.sidebar %}
 		{% include common/ad.html ad=ad content="sidebar" %}
 	{% endfor %}
+	<krv-events source="krv-news" content="sidebar" target="_blank"></krv-events>
 	{% if include.recent-posts %}{% include articles/recent-posts.html count=layout.recent-posts %}{% endif %}
 </aside>

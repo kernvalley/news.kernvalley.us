@@ -13,10 +13,11 @@ viewport: width=device-width
 keep-kern-clean: true
 robots: 'follow, index'
 referrer: no-referrer
-manifest: /manifest.json
+manifest: /webapp.webmanifest
 tiles-config: /browserconfig.xml
 service_worker: "./service-worker.js"
 og-type: website
+disqus: krv-news
 description: "News for the Kern River Valley"
 mobile-web-app-capable: true
 # canonical: ''

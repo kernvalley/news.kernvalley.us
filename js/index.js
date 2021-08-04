@@ -4,6 +4,8 @@ import 'https://cdn.kernvalley.us/js/std-js/theme-cookie.js';
 import 'https://cdn.kernvalley.us/components/share-button.js';
 import 'https://cdn.kernvalley.us/components/share-to-button/share-to-button.js';
 import 'https://cdn.kernvalley.us/components/slide-show/slide-show.js';
+import 'https://cdn.kernvalley.us/components/krv/events.js';
+import 'https://cdn.kernvalley.us/components/disqus/comments.js';
 import 'https://cdn.kernvalley.us/components/github/user.js';
 import 'https://cdn.kernvalley.us/components/current-year.js';
 import 'https://cdn.kernvalley.us/components/bacon-ipsum.js';

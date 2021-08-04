@@ -48,7 +48,7 @@ related_applications:
   - platform: play
     id: com.courier.twa
   - platform: webapp
-    url: https://news.kernvalley.us/manifest.json
+    url: https://news.kernvalley.us/webapp.webmanifest
 features:
   - Unbiased and important news updated as available instead of once a week
   - No paywall or reading limits
