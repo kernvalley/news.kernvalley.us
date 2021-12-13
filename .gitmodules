@@ -13,3 +13,6 @@
 [submodule "_includes/articles"]
 	path = _includes/articles
 	url = https://github.com/shgysk8zer0/jekyll-articles.git
+[submodule "_includes/leaflet"]
+	path = _includes/leaflet
+	url = https://github.com/shgysk8zer0/jekyll-leaflet.git
