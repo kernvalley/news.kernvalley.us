@@ -4,19 +4,18 @@
         "es6": true
     },
     "extends": "eslint:recommended",
-    "parser": "babel-eslint",
     "parserOptions": {
         "sourceType": "module",
-        "ecmaVersion": 2018
+        "ecmaVersion": 2020
     },
-    "plugins": [
-      "async-await",
-      "frontmatter"
-    ],
+    "plugins": ["frontmatter"],
     "rules": {
         "indent": [
             2,
-            "tab"
+            "tab",
+            {
+              "SwitchCase": 1
+            }
         ],
         "quotes": [
             2,
@@ -27,8 +26,7 @@
             "always"
         ],
         "no-console": 0,
-        "async-await/space-after-async": 2,
-        "async-await/space-after-await": 2,
+        "no-prototype-builtins": 0,
         "generator-star-spacing": ["error", {
             "before": false,
             "after": true,
@@ -37,6 +35,9 @@
         }]
     },
     "globals": {
-      "cookieStore": "readonly"
+      "launchQueue": "readonly",
+      "cookieStore": "readonly",
+      "showOpenFilePicker": "readonly",
+      "showSaveFilePicker": "readonly"
     }
 }
