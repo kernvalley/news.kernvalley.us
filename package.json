@@ -2,6 +2,7 @@
   "name": "news-kernvalley-us",
   "version": "1.0.8",
   "private": true,
+  "type": "module",
   "description": "Kern River Courier web app",
   "config": {
     "icons": "./_data/icons.csv",
